@@ -80,6 +80,8 @@ img {
 
 @media screen and (max-width:419px){
 
+
+
 /* lezioni */
 
   #lezioni .row>.left,
@@ -112,7 +114,5 @@ img {
   #why .row>.third img{
     height: 50px;
   }
-
-
 
 }
