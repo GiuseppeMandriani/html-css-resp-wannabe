@@ -71,3 +71,48 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* ******************************
+            RESPONSIVE
+  ******************************* */
+
+
+@media screen and (max-width:419px){
+
+/* lezioni */
+
+  #lezioni .row>.left,
+  #lezioni .row>.right{
+    width: 100%;
+  }
+
+  /* steps */
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    width: 50%;
+  }
+
+  #steps .row>.right{
+    float: none;
+    margin: 0 auto;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    width: 33%;
+    float: left;
+  }
+
+  #why .row>.first img,
+  #why .row>.second img,
+  #why .row>.third img{
+    height: 50px;
+  }
+
+
+
+}
