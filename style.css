@@ -79,51 +79,54 @@ img {
 
 
 @media screen and (max-width:419px){
+/* GENERAL */
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+/* LAYOUT */
 
 .row{
-  max-width: 100%;
-  margin-top: 30px;
-}
-
-h1{
-  font-size: 1.5rem;
-  padding-top: 15px;
-}
-
-
-h3{
-  font-size: 1.1em;
+  width: 100%;
+  margin-top: 0;
+  padding: 15px 15px 25px;
 }
 
 img{
-  max-width: 50%;
-  height: auto;
-  margin-top: 10px;
+  height: 140px;
+  margin-top: 25px;
 }
 
-/* lezioni */
+
+/* LEZIONI E STEP */
 
   #lezioni .row>.left,
-  #lezioni .row>.right{
-    width: 100%;
-    float: none;
-  }
-
-
-  /* steps */
-
+  #lezioni .row>.right,
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right{
     width: 100%;
+    float: none;
   }
 
-  #why .row>.first,
-  #why .row>.second,
-  #why .row>.third{
-    width: 100%;
-    margin-top: 40px;
-  }
+/* WHY */
+
+ #why .row{
+   background-color: rgba(0, 0, 0, .5);
+ }
+
+
+ #why .row hr{
+   margin-top:30px;
+ }
+
+
 
 }
 
